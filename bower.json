@@ -1,0 +1,8 @@
+{
+  "name": "home-page",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "magnific-popup": "~1.0.0"
+  }
+}

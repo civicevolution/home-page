@@ -78,27 +78,27 @@ div.about td p.title {
 
 /* notebook and spiral CSS */
 /* line 57, ../../../app/assets/stylesheets/ce_home/civic_home.sass */
-div.spiral {
-  background: url(../images/layout/notebook_paper_spiral.gif) repeat-y;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 33px;
-  height: 100%;
-}
+/*div.spiral {*/
+  /*background: url(/images/layout/notebook_paper_spiral.gif) repeat-y;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*width: 33px;*/
+  /*height: 100%;*/
+/*}*/
 
 /* line 66, ../../../app/assets/stylesheets/ce_home/civic_home.sass */
-div.notebook {
-  margin-left: 12px;
-  background: url(../images/layout/parchment_tile.jpg);
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  min-height: 400px;
-}
+/*div.notebook {*/
+  /*margin-left: 12px;*/
+  /*background: url(/images/layout/parchment_tile.jpg);*/
+  /*padding-left: 50px;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+  /*-webkit-border-radius: 10px;*/
+  /*-moz-border-radius: 10px;*/
+  /*border-radius: 10px;*/
+  /*min-height: 400px;*/
+/*}*/
 
 /* line 79, ../../../app/assets/stylesheets/ce_home/civic_home.sass */
 /*div.home div.notebook {*/
@@ -286,7 +286,7 @@ div.how_it_works {
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 2em 3em;
-  background: url(../images/layout/parchment_tile.jpg);
+  background: url(/images/layout/parchment_tile.jpg);
 }
 /* line 217, ../../../app/assets/stylesheets/ce_home/civic_home.sass */
 div.how_it_works > p {
@@ -345,7 +345,7 @@ div.featured_projects {
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 2em 3em;
-  background: url(../images/layout/parchment_tile.jpg);
+  background: url(/images/layout/parchment_tile.jpg);
 }
 
 /* line 265, ../../../app/assets/stylesheets/ce_home/civic_home.sass */

@@ -1,0 +1,20 @@
+div.spiral {
+  background: url(images/notebook_paper_spiral.gif) repeat-y;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 100%;
+}
+
+div.notebook {
+  margin-left: 12px;
+  background: url(images/parchment_tile.jpg);
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  min-height: 400px;
+}
