@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <!-- saved from url=(0026)http://civicevolution.org/ -->
-<html lang="en-en" xml:lang="en-en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>CivicEvolution - Think together to act together</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
     <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
     <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
 
 </head>
 <body>
-<div class="page">
-    <div class="home">
+<div class="container">
+    <div class="home-section">
         <div class="spiral"></div>
         <div class="notebook">
             <img alt="Ce-on-parchmentb" class="logo" src="images/ce-on-parchmentB.gif">
@@ -41,31 +45,17 @@
                 <!--<p class="clear_both clearfix"></p>-->
 
             </div>
-            <!--<div class="video">-->
-            <!--&lt;!&ndash;<iframe width="400" height="300" src="./home_files/so7BokARUiI.html" frameborder="0" allowfullscreen=""></iframe>&ndash;&gt;-->
-            <!--<p style="margin: 0"></p>-->
-            <!--&lt;!&ndash;<div class="subscribe">-->
-            <!--<form accept-charset="UTF-8" action="http://ce2.civicevolution.org/follow" class="orig" id="subscribe_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>-->
-            <!--<p>Follow our Evolution!</p>-->
-            <!--<p>-->
-            <!--Email:-->
-            <!--<input id="email" name="email" type="text">-->
-            <!--<input name="commit" type="submit" value="Follow us">-->
-            <!--</p>-->
-            <!--</form>-->
-
-            <!--</div>&ndash;&gt;-->
-            <!--</div>-->
             <p class="clear_both"></p>
         </div>
     </div>
 
 
 
-    <div class='home_forms home_pages'>
+    <div class='home-section'>
         <div class='spiral'></div>
         <div class='notebook'>
-            <h1>Crowd-assisted Proposal Evolution (CAPE)</h1>
+            <h2 class="announcement">Our newest project</h2>
+            <h1 class="sectionTitle">Crowd-assisted Proposal Evolution (CAPE)</h1>
             <div class="mission">
 
                 <p>Crowd-assisted Proposal Evolution (CAPE) is an easy-to-use email-based process that lets anyone introduce an idea to a group
@@ -89,21 +79,6 @@
                     <li>Continue this process until your group reaches consensus.</li>
                 </ol>
 
-                <!--Why cemail?-->
-                <!--Get started immediately–no setup required-->
-                <!--No new tools for your group to learn–participants simply reply to an email-->
-                <!--Or they can choose to explore the full power and history of the process online-->
-                <!--Your questions provide very clear calls-to-action for your participants–no guessing what to do-->
-                <!--Works with any size group-->
-                <!--Privacy and transparency are completely customizable-->
-                <!--Our flexible format allows your group to develop simple ideas or complex proposals for action-->
-                <!--Integrates with the tools your group already uses-->
-                <!--Websites-->
-                <!--Chat-->
-                <!--Voice and video conferencing-->
-                <!--Surveys and polls-->
-                <!--You can run the process yourself or work with a professional facilitator to provide independence in tricky situations-->
-
                 <p>CAPE is our newest project and the result of everything we learned. We will begin beta testing in January, 2015</p>
                 <!--<p>CAPE provides a simple, convenient and transparent way to collect, organize and make sense of user input in an-->
                 <!--ongoing group conversation and report it back to the group and the general public</p>-->
@@ -117,30 +92,88 @@
         </div>
     </div>
 
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+            <h2 class="title">Featured projects</h2>
+            <p>Some of the many projects we've partnered on in Australia and the United States are
+            described below.</p>
+
+            <p>Our goal is to maximize everyone's ability to participate in
+                creative community problem solving by giving them a platform where they can "Think together to act
+                together."
+            </p>
+
+            <p>We empower leaders to make an explicit promise to listen to and collaborate with their constituents
+                by creating a safe, engaging, and productive way for decision makers to gather quality community
+                input.</p>
+
+            <p>Our solution outsources democracy back to the citizens in the form of community proposal development.
+                Participants work in groups to develop their ideas, elicit community feedback, evaluate, sort,
+                and prioritize the feedback, and integrate it into an actionable proposal.
+                Through this process, they develop better plans and broad community support.
+                </p>
+            <p>This is the kind of community input decision-makers need.</p>
+
+            <p>You can read about our new approach in
+                <a href="http://www.publicdeliberation.net/cgi/viewcontent.cgi?article=1315&context=jpd"
+                   target="_blank">
+                    The Unfulfilled Promise of Online Deliberation
+                </a>
+            </p>
+
+            <p>If you would like to learn more about CivicEvolution and how we can support your project, please email
+                info@civicevolution.org
+            </p>
 
 
-
-
-
-    <div class="social_proof_logos">
-        <a href="http://2029.civicevolution.org/" target="_blank"><img alt="2029_logo_tag"
-                                                                       src="images/2029_logo_tag.gif">
-        </a><a href="http://newdemocracy.com.au/docs/newDemocracy_Citizens_Parliament_Handbook.pdf" target="_blank"><img
-            alt="Citizens_parliament_8gs" src="images/mktg/citizens_parliament.gif">
-    </a><a href="http://communityforums.org/" target="_blank"><img alt="Ccf_logo_6gs" src="images/mktg/CCF_logo.gif">
-    </a><img alt="Usyd" src="images/mktg/usyd.gif">
+        </div>
     </div>
 
 
-    <div class='home_forms home_pages'>
+    <div class='home-section'>
         <div class='spiral'></div>
         <div class='notebook'>
-            <div class='about'>
-                <h3>Featured projects</h3>
 
-                <img alt="2029beyondtaghor" src="images/mktg/2029beyondtaghor.gif">
+            <div class="project">
+                <h2 class="title">Participatory Budgeting for the City of Greater Geraldton</h2>
+                <img class="logo" alt="cogg-logo" src="images/mktg/cogg-logo-t.png">
+                <p class="description">
+                    Over the past 4 years, we've been part of an action research initiative to create a deliberative community and
+                    collaborative governance in the City of Greater Geraldton, WA that received national research funding,
+                    and won international acknowledgement. This included innovative Participatory Budgeting, using random
+                    sample People’s Panels to allocate the $70 million 10 year capital works budget (2013 – concluded and
+                    adopted) and to allocate 100% of the City Region’s operational budget range and level of services-
+                    $70 million (just concluded).
+                </p>
+                <p class="description">
+                    CivicEvolution provided a customized deliberation platform that facilitated the face-to-face
+                    deliberation of a large group of citizens working in small teams. This group developed its own
+                    criteria and then applied their criteria using a multi-criteria-analysis process in distributed
+                    groups.
+                </p>
+                <div class="videos">
+                    Video:
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=ndXKld5TUe8">
+                        COGG PARTICIPATORY COMMUNITY BUDGETING (21:36)
+                    </a>
 
-                <p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+
+            <div class="project">
+                <h2 class="title">2029 and Beyond Sustainable Future City Project</h2>
+                <img class="logo" alt="2029beyondtaghor" src="images/mktg/2029beyondtaghor.gif">
+                <p class="description">
                     CivicEvolution has partnered with the City of Greater Geraldton in Western Australia for their
                     Sustainable Future City Project,
                     <a href="http://2029andbeyond.com.au/">2029 and Beyond</a>.
@@ -150,15 +183,119 @@
                     for engaging citizen participants in deliberative collaboration to develop ideas and proposals for
                     the sustainable community planning project.
                 </p>
-
-                <p>
+                <p class="description">
                     The 2029 project including CivicEvolution was selected as a finalist in the
                     <a href="http://www.vitalizing-democracy.org/">Reinhard Mohn Prize competition</a>.
                 </p>
-                <img alt="Catalyst-rocket-home" src="images/mktg/catalyst-rocket-home.gif" style="margin-top: 20px"
-                     width="162px">
+                <div class="videos">
+                    Videos:
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=so7BokARUiI">
+                        CivicEvolution: Think together to Act together (3:43)
+                    </a>
 
-                <p>
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=WCKnCINfldU">
+                        2029 Intro with screen shots (3:41)
+                    </a>
+
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=bXxPk2uwvuk">
+                        Finalists for the Reinhard Mohn Prize 2011: Geraldton 2029 and Beyond (3:49)
+                    </a>
+
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=GoZqfoB5qXU">
+                        2029 Talking Points Demo (2:50)
+                    </a>
+
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=bRGLb5RrqZ0">
+                        Alternative version 1 (2:37)
+                    </a>
+
+                    <a class="popup-youtube" href="https://vimeo.com/22311078">
+                        Alternative version 2 (3:13)
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+            <div class="project">
+                <h2 class="title">Australia's First Citizens' Parliament</h2>
+                <img class="logo" alt="citizens-parliament" src="images/mktg/citizens-parliament-t.png">
+                <p class="description">
+                    The first ever Australian Citizens' Parliament brought 150 randomly selected Australians together for
+                    3 days to answer the question: "How can Australia's political system be strengthened to serve us
+                    better?"
+                </p>
+                <p class="description">
+                    CivicEvolution provided an Online Parliament for 2600 randomly selected Australian citizens. Hundreds
+                    of these citizens used CivicEvolution to develop and support proposals that became the starting
+                    point for the face-to-face assembly in Canberra. The Citizens' Parliament deliberated, improved and
+                    endorsed 11 of the proposals that were developed in the Online Parliament. The final recommendations
+                    of the Citizens' parliament were presented to the Prime Minister, Parliament, and the media
+                </p>
+                <div class="videos">
+                    Videos:
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=12N--gyOv78">
+                        Australian Online Citizens' Parliament (4:58)
+                    </a>
+
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=qWOoQwpJdrE">
+                        Video clip of the Citizens Parliament, held in Canberra in February 2009. (6:47)
+                    </a>
+
+                    <p class="documents">
+                        Journal article:
+                        <a href="http://www.publicdeliberation.net/cgi/viewcontent.cgi?article=1114&context=jpd"
+                           target="_blank">
+                            The Australian Citizens' Parliament: A World First
+                        </a>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+
+            <div class="project">
+                <h2 class="title">Sustainability Within a Generation (SWAG)</h2>
+                <img class="logo" alt="WA-logo-2" src="images/mktg/WA-logo-2.png">
+                <p class="description">
+                    CivicEvolution developed and hosted an online platform for citizens
+                    of Western Australia to develop proposals that will help them address
+                    climate change and their oil dependency and lead to greater sustainability.
+                </p>
+                <p class="description">
+                    "Play your part in helping Western Australia become sustainable within a generation.
+                    Suggest a good idea or join someone else's idea to develop a proposal
+                    Your completed team proposals will be prioritised, considered by an expert team, and the best ideas will be
+                    funded and supported through the Murdoch SWAG Foundation."
+                </p>
+                <div class="videos">
+                    Video:
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=CT4B6r6Fm8E">
+                        Get Involved WA Demo (4:18)
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+            <div class="project">
+                <h2 class="title">NCDD Catalyst Awards</h2>
+                <img class="logo" alt="ncdd-catalyst" src="images/mktg/ncdd-catalyst-t.png">
+                <p class="description">
                     CivicEvolution hosted the
                     <a href="http://ncdd.civicevolution.org/">NCDD Catalyst Awards</a>
                     in partnership with the National Coalition for Dialogue &amp; Deliberation.
@@ -166,79 +303,86 @@
                     jump-start the field’s next best ideas and impact our communities’ and our country’s ability to
                     solve its most challenging problems.
                 </p>
+                <div class="videos">
+
+                </div>
             </div>
         </div>
     </div>
 
-    <!--
-    <div>
-    <div class="featured_projects">
-    <img alt="2029beyondtaghor" src="./home_files/2029beyondtaghor.gif">
-    <p>
-    CivicEvolution has partnered with the City of Greater Geraldton in Western Australia for their Sustainable Future City Project,
-    <a href="http://2029andbeyond.com.au/">2029 and Beyond</a>.
-    Their mission is to develop a sustainable future city and region plan by and for the community. CivicEvolution is providing tools and processes in the
-    <a href="http://2029.civicevolution.org/">2029 and Beyond CivicEvolution home page</a>
-    for engaging citizen participants in deliberative collaboration to develop ideas and proposals for the sustainable community planning project.
-    </p>
-    <p>
-    The 2029 project including CivicEvolution was selected as a finalist in the
-    <a href="http://www.vitalizing-democracy.org/">Reinhard Mohn Prize competition</a>.
-    </p>
-    <img alt="Catalyst-rocket-home" src="./home_files/catalyst-rocket-home.gif" style="margin-top: 20px" width="162px">
-    <p>
-    CivicEvolution hosted the
-    <a href="http://ncdd.civicevolution.org/">NCDD Catalyst Awards</a>
-    in partnership with the National Coalition for Dialogue &amp; Deliberation.
-    Two $10,000 prizes were awarded to team projects organized, led and selected by NCDD members that jump-start the field’s next best ideas and impact our communities’ and our country’s ability to solve its most challenging problems.
-    </p>
-    </div>
-    </div>-->
 
-
-    <div class='home_forms home_pages'>
+    <div class='home-section'>
         <div class='spiral'></div>
         <div class='notebook'>
-            <div class='about'>
-                <h3>About CivicEvolution</h3>
-
-                <p>CivicEvolution is produced by Practical Evolution, LLC based in San Francisco, California.</p>
-
-                <h3>Think together to act together</h3>
-
-                <p>We believe that meaningful change comes from the grassroots in the form of community written and
-                    supported plans to solve community problems.</p>
-
-                <h3>How we do it</h3>
-
-                <p>We complement traditional face-to-face citizen engagement with the scalability and access of social
-                    media and collaborative production. Our goal is to maximize everyone's ability to participate in
-                    creative community problem solving by giving them a platform where they can "Think together to act
-                    together."</p>
-
-                <p>Anyone can float ideas and aggregate clicks–meaningful change comes from a community written and
-                    supported plan to put an idea into action.</p>
-
-                <p>We solve the pain points experienced by both citizens and decision-makers. Citizens can't commit to
-                    full-time activism and decision makers often don't have access to quality and cost-effective public
-                    input.</p>
-
-                <p>We empower leaders to make an explicit promise to listen to and collaborate with their constituents
-                    by creating a safe, engaging, and productive way for decision makers to gather quality community
-                    input.</p>
-
-                <p>Our solution outsources democracy back to the citizens in the form of community plan writing. They
-                    elicit community feedback, filter it, and synthesize it into an actionable proposal that
-                    decision-makers can review and negotiate.</p>
-
-                <p>Ultimately, citizens experience themselves as authentic participants in the creative co-governance of
-                    their communities</p>
+            <div class="project">
+                <h2 class="title">IAP2 AustralAsia Conference Session</h2>
+                <img class="logo" alt="cogg-logo" src="images/mktg/iap2-australasia-t.png">
+                <p class="description">
+                    CivicEvolution was used to at the 2013 IAP2 AustralAsia Conference to help attendees
+                    set the direction for the organization. The participants addressed two
+                    burning questions:
+                    "What could we do differently to scale up to address complexity?" and
+                    "What could we do to institutionalize "meaningful" participation?"
+                </p>
+                <p class="description">
+                    The video linked below shows how the CivicEvolution process and platform
+                    is facilitates small group and large group conversations concurrently.
+                </p>
+                <div class="videos">
+                    Video:
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=ts0ohUWJDqY">
+                        CivicEvolution and 21st Century Town Meeting (2:20)
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div class='home_forms home_pages'>
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+            <div class="project">
+                <h2 class="title">Countywide Community Forums</h2>
+                <img class="logo" alt="county-wide-com-forums" src="images/mktg/county-wide-com-forums-t.png">
+                <p class="description">
+                    Countywide Community Forums is designed to make democracy more user-friendly and to bring the public
+                    forum to your kitchen table, neighborhood, and workplace. Over 1800 Citizen Councilors are
+                    registered and making their opinion count while building stronger connections to their community.
+                    CivicEvolution was tasked to give the citizen participants greater say in the development of the
+                    forums and help increase citizen participation in the program.
+                </p>
+                <div class="videos">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='home-section'>
+        <div class='spiral'></div>
+        <div class='notebook'>
+            <div class="project">
+                <h2 class="title">Community Volleyball Club</h2>
+                <img class="logo" alt="volleyball" src="images/mktg/volleyball-t.png">
+                <p class="description">
+                    Our first community deliberation project was created to help a community volleyball club
+                    develop a new set of governing rules. Not only did this project provide great experience,
+                    but it also demonstrated that deliberative democracy can apply to every organization we
+                    belong to and every activity in which we engage.
+                </p>
+                <div class="videos">
+                    Video:
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=x98qklNu8Qk">
+                        Volleyball Project Demo (5:27)
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class='home-section'>
         <div class='spiral'></div>
         <div class='notebook'>
             <div class='about'>
@@ -291,7 +435,7 @@
                                  width="100px"/>
                         </td>
                         <td>
-                            <p class='title'>Michael Briand, PhD, Communications Director</p>
+                            <p class='title'>Michael Briand, PhD, Communications Director & Project Consultant</p>
 
                             <p>Michael is a writer and a facilitator of civic and political communication.
                                 He holds a PhD in metaethical and political philosophy from the Johns Hopkins
@@ -309,66 +453,21 @@
                     </tbody>
                 </table>
 
-            </div>
-        </div>
-
-
-        <div class='home_forms home_pages'>
-            <div class='spiral'></div>
-            <div class='notebook'>
-
-                <h3>Here are a few of our recent projects</h3>
-                <h4>2029 and Beyond: Sustainable Future City Project</h4>
-
-                <p>CivicEvolution has partnered with the City of Greater Geraldton in Western Australia for their
-                    Sustainable Future City Project. Their mission is to develop a sustainable future city and region
-                    plan by and for the community. CivicEvolution is providing tools and processes for engaging citizen
-                    participants in deliberative collaboration to develop ideas and proposals for the sustainable
-                    community planning project.</p>
-
-                <p>The 2029 project including CivicEvolution was a finalist in the international Reinhard-Mohn Prize
-                    2011 for ‘vitalizing democracy’</p>
-                <h4>Citizens Parliament</h4>
-
-                <p>The first ever Australian Citizens' Parliament brought 150 randomly selected Australians together for
-                    3 days to answer the question: "How can Australia's political system be strengthened to serve us
-                    better?"</p>
-
-                <p>CivicEvolution provided an Online Parliament for 2600 randomly selected Australian citizens. Hundreds
-                    of these citizens used CivicEvolution to develop and support proposals that became the starting
-                    point for the face-to-face assembly in Canberra. The Citizens' Parliament deliberated, improved and
-                    endorsed 11 of the proposals that were developed in the Online Parliament. The final recommendations
-                    of the Citizens' parliament were presented to the Prime Minister, Parliament, and the media.</p>
-                <h4>Countywide Community Forums in Seattle, WA</h4>
-
-                <p>Countywide Community Forums is designed to make democracy more user-friendly and to bring the public
-                    forum to your kitchen table, neighborhood, and workplace. Over 1800 Citizen Councilors are
-                    registered and making their opinion count while building stronger connections to their community.
-                    CivicEvolution was tasked to give the citizen participants greater say in the development of the
-                    forums and help increase citizen participation in the program.</p>
-
                 <h3>Contact us</h3>
 
                 <p>If you would like to learn more about CivicEvolution, please contact us at
                     info@civicevolution.org</p>
+
             </div>
         </div>
-    </div>
-
-    <!--<div class='home_forms home_pages'>-->
-        <!--<div class='spiral'></div>-->
-        <!--<div class='notebook'>-->
-
-            <!--<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Open YouTube video</a>-->
-
-        <!--</div>-->
-    <!--</div>-->
-
 
 </div>
 
 <!--Load jquery  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 <!-- compiled JS --><% scripts.forEach( function ( file ) { %>
 <script type="text/javascript" src="<%= file %>"></script><% }); %>

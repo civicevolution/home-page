@@ -1,3 +1,21 @@
+div.home-section{
+  position: relative;
+  margin-top: 30px;
+}
+
+.about{
+  td{
+    vertical-align: top;
+    padding-bottom: 20px;
+    p{
+      margin: 0 0 1em 1em;
+      &.title{
+        font-weight: bold;
+      }
+    }
+  }
+}
+
 div.spiral {
   background: url(images/notebook_paper_spiral.gif) repeat-y;
   position: absolute;
@@ -10,11 +28,45 @@ div.spiral {
 div.notebook {
   margin-left: 12px;
   background: url(images/parchment_tile.jpg);
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 40px 20px 50px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  min-height: 400px;
+}
+
+h2.announcement{
+  color: red;
+  font-style: italic;
+  margin: 0 0 -1em 0;
+  font-size: 1.2em;
+}
+h1.sectionTitle{
+  margin-bottom: 0;
+}
+
+body{
+  padding-bottom: 40px;
+}
+
+.project{
+  clear: both;
+  margin-bottom: 20px;
+  .logo{
+    display: block;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+  }
+  .videos{
+    clear: both;
+    color: #666;
+    a{
+      margin-right: 1em;
+      color: #666;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
